@@ -1,0 +1,87 @@
+
+/* Memberlists */
+
+.webling_memberlist img {
+	max-height: 30px;
+}
+
+
+/* Forms */
+
+
+.webling-form__group {
+	margin: 1.5em 0;
+}
+
+.webling-form__required {
+	color: red;
+}
+
+.webling-form__input,
+.webling-form__select,
+.webling-form__multiselect,
+.webling-form__textarea {
+	width: 100%;
+	display: block;
+}
+
+
+.webling-form__input,
+.webling-form__textarea {
+	padding: 0.5em;
+}
+
+.webling-form__group--hidden .webling-form__label {
+	display: none;
+}
+
+.webling-form__group--left .webling-form__label {
+	display: block;
+	width: 33%;
+	float: left;
+	padding: 0.5em 0;
+}
+
+.webling-form__group--left .webling-form__field {
+	display: block;
+	width: 67%;
+	float: left;
+}
+
+.webling-form__group--left:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+ul.webling-form__multiselect {
+	list-style: none;
+	margin: 0.5em 0;
+}
+
+.webling-form__select {
+	margin: 0.5em 0;
+}
+
+input.webling-form__checkbox {
+	vertical-align: middle;
+}
+
+/* hide h0nèyp0t */
+#webling-form-field_0 {
+	display: none !important;
+}
+
+/* Responsive Breakpoint for phones < 768px */
+@media only screen and (max-width: 47.9999em) {
+	.webling-form__group--left .webling-form__label,
+	.webling-form__group--left .webling-form__field {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+
+	.webling-form__group {
+		margin: 1em 0;
+	}
+}

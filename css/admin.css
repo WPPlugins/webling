@@ -1,0 +1,95 @@
+
+/* Webling Plugin Admin Styles */
+
+.webling-admin .shortcode {
+	font-family: "Lucida Console", Monaco, monospace;
+	border: 2px solid #eee;
+	padding: 8px 4px;
+	width: 100%;
+	font-size: 95%;
+}
+
+/* Webling Plugin Memberlist Editor */
+
+.webling-admin .sortable_field {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background: #fafafa;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.webling-admin .sortable_field.selected {
+	border: 1px solid #87bed8;
+	background: #e4f6ff;
+}
+
+.webling-admin .webling_design_placeholders {
+	padding: 10px;
+	background: #fafafa;
+	font-family: Consolas,Monaco,monospace;
+	font-size: 90%;
+}
+
+/* Webling Plugin Forms Editor */
+
+.webling-admin #poststuff .bodywrap h2 {
+	padding: 0;
+	padding-top: 9px;
+}
+
+.webling-admin .webling-fields-holder {
+	padding: 0 8px;
+	margin-bottom: 9px;
+	position: relative;
+	min-height: 123px;
+}
+
+.webling-admin .widgets-holder-wrap .widget-inside {
+	padding-top: 15px;
+}
+
+.webling-admin #sortable_main {
+	min-height: 300px;
+	padding-top: 5px;
+}
+
+.webling-admin #sortable_main.dragging {
+	border: 4px dashed #0085ba;
+	margin: -4px;
+}
+
+.webling-admin #sortable_side {
+	min-height: 100px;
+}
+
+.webling-admin #sortable_side .widget-content,
+.webling-admin #sortable_side .widget-title-action {
+	display: none;
+}
+
+.webling-admin #sortable_side .widget-inside {
+	border: none;
+}
+
+.webling-admin #sortable_side .widget-title h3 {
+	padding: 8px;
+}
+
+.webling-admin #sortable_side .widget {
+	margin-bottom: 6px;
+}
+
+.webling-admin .webling-fields-hint {
+	font-size: 120%;
+	padding: 0 10px;
+	color: #aaa;
+	text-align: center;
+}
+
+.webling-admin #poststuff .webling-tabs-body h2 {
+	font-size: 1.3em;
+}
